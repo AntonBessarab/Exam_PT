@@ -20,5 +20,5 @@ class TestPyramidNumber(unittest.TestCase):
         with self.assertRaises(TypeError):
             pyramid_number("5")
     
-#if __name__ == "__main__":
-#    unittest.main()
+if __name__ == "__main__":
+    unittest.main()
