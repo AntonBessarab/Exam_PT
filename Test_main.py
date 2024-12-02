@@ -6,7 +6,7 @@ class TestPyramidNumber(unittest.TestCase):
     def test_positive_number(self):
         self.assertEqual(pyramid_number(1), 1)
         self.assertEqual(pyramid_number(2), 4)
-        self.assertEqual(pyramid_number(5), 35)
+        self.assertEqual(pyramid_number(1), 35)
 
     def test_zero_input(self):
         with self.assertRaises(ValueError):
